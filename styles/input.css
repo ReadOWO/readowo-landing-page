@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities; 
 
+.bg-hero-img {
+  background-image: url('../images/old-books-arrangement.jpg');
+}
+
 @layer components {
   .layout {
     @apply grid grid-cols-1 grid-rows-[auto_1fr_auto] min-h-screen;
@@ -9,5 +13,8 @@
 
   .btn-primary {
     @apply py-3 px-6 bg-primary text-white;
+  }
+  .btn-white {
+    @apply py-3 px-6 bg-white;
   }
 } 
