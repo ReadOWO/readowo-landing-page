@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="/images/readowo-logo.png" type="image/x-icon" />
   <meta name="robots" content="index, follow" />
-  <title>ReadOWO</title>
-  <meta name="keywords" content="ReadOWO, Aplicación de comics, Aplicación de manga, Aplicación de novelas ligeras, aplicación de lectura, aplicación con fácil publicación de libros" />
-  <meta name="description" content="ReadOWO es la plataforma perfecta para que descubras, compartas y te involucres con tu contenido favorito de mangas y novelas ligeras." />
+  <title>Readr</title>
+  <meta name="keywords" content="ReadOWO términos de uso, Aplicación de comics, Aplicación de manga, Aplicación de novelas ligeras, aplicación de lectura, aplicación con fácil publicación de libros" />
+  <meta name="description" content="Conoce acerca de los términos de uso de Readr para empezar a usar nuestra plataforma que atiende a los entusiastas del manga y novela ligera." />
   <link rel="stylesheet" href="/styles/style.css">
   <script src="/scripts/main.js" defer></script>
 </head>
@@ -90,5 +90,5 @@
   <footer>
 
   </footer>
-
 </body>
+</html>
