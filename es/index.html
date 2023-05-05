@@ -60,7 +60,7 @@
   </div>
   <header class="flex justify-around items-center bg-gray-100 py-2">
     <a href="/es">
-      <img class="h-16 md:h-24 w-auto hover:scale-105 duration-300" src="/images/readr-horizontal.png" alt="Readr app logo">
+      <img class="h-16 md:h-24 w-auto hover:scale-105 duration-300" src="/images/readowo-horizontal.png" alt="readowo app logo">
     </a>
     <nav class="hidden font-medium md:flex">
       <ul class="flex items-center gap-6">
@@ -85,7 +85,115 @@
     </button>
   </header>
   <main>
-
+    <section class="relative min-h-screen bg-hero-img bg-cover bg-bottom">
+      <div class="absolute h-full w-full bg-white opacity-50"></div>
+      <div class="absolute h-full w-full flex flex-col justify-center items-center p-4 gap-8">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl text-center font-bold">Experimenta las maravillas de <span class="text-primary">leer</span> <br>y <span class="text-secondary">escribir</span>, un capítulo a la vez.</h1>
+        <p class="text-lg md:text-2xl font-semibold text-center">Lee o escribe cómics, mangas o novelas ligeras <br>donde quieras.</p>
+        <a href="https://app.Reader.app/" class="flex justify-center items-center btn-primary hover:bg-secondary duration-300 rounded-full gap-1 md:gap-2">
+          <span class="md:text-xl">Regístrate</span>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 md:w-6 md:h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+          </svg>
+        </a>
+      </div>
+    </section>
+    <section class="p-8 bg-gray-100" id="product">
+      <h2 class="text-center font-bold text-3xl">ReadOWO, una nueva forma de leer y escribir</h2>
+      <p class="text-center my-4 text-lg">Para nuestros lectores más apasionados</p>
+      <div class="flex flex-col gap-8">
+        <div class="flex flex-wrap justify-center items-center gap-4">
+          <p>Obtén acceso a nuestra colección de<br>+1000 títulos famosos y únicos.</p>
+          <img class="w-56 md:w-64 h-auto" src="/images/books.png" alt="6 libros famosos juntos">
+        </div>
+        <div class="flex flex-wrap md:flex-row-reverse justify-center items-center gap-4">
+          <p>Compatibilidad total entre dispositivos:<br>Usa tu celular, tablet o computadora.</p>
+          <img class="w-56 md:w-64 h-auto" src="/images/devices.png" alt="Diferentes dispositivos como laptop, celular y tablet">
+        </div>
+        <div class="flex flex-wrap justify-center items-center gap-4">
+          <p>¿Te gusta la acción? Tenemos un<br>sistema de aprendizaje basado en tus<br>para recomendarte creaciones<br>similares.</p>
+          <img class="w-56 md:w-64 h-auto" src="/images/ai.png" alt="Lindo robot aprendiendo con algoritmos de IA">
+        </div>
+      </div>
+    </section>
+    <section class="p-8 text-white bg-primary">
+      <p class="text-center my-4 text-lg">Para nuestros increíbles escritores</p>
+      <div class="flex flex-col gap-8">
+        <div class="flex flex-wrap md:flex-row-reverse justify-center items-center gap-4">
+          <p>Lleva tu escritura al siguiente nivel:<br>Agrega imágenes, cambia la tipografía<br>y más.</p>
+          <img class="w-56 md:w-64 h-auto" src="/images/writing.png" alt="Autor feliz trabajando en una nueva obra">
+        </div>
+        <div class="flex flex-wrap justify-center items-center gap-4">
+          <p>Publica tus obras de arte a través de nuestra<br>plataforma para que sea compartido con los demás.</p>
+          <img class="w-56 md:w-64 h-auto" src="/images/book-upload.png" alt="Un libro con letras alrededor">
+        </div>
+        <div class="flex flex-wrap md:flex-row-reverse justify-center items-center gap-4">
+          <p>¡Empieza a obtener reconocimiento!<br>Cualquiera puede dar me gusta a tus libros<br>y compartirlos con otros.</p>
+          <img class="w-56 md:w-64 h-auto" src="/images/love.png" alt="Una notificación de me gusta">
+        </div>
+      </div>
+    </section>
+    <section class="flex justify-center items-center bg-gray-100 p-4 md:p-8" id="abou-us">
+      <div class="grid grid-cols-1 items-center md:grid-cols-2 w:w-3/4 lg:w-2/3">
+        <div class="text-center">
+          <h2 class="font-bold text-3xl mb-4">¿Todavía tienes dudas<br>sobre ReadOWO?</h2>
+          <p class="text-lg">Mira nuestro video promocional del producto para conocer<br>cómo exactamente ReadOWO funciona</p>
+        </div>
+        <img src="/images/yt-video-placeholder.png" alt="Marcador de posición del video acerca del producto">
+      </div>
+    </section>
+    <section id="about-us" class="flex flex-col justify-center items-center bg-tertiary py-4 md:py-8">
+      <h2 class="font-bold text-3xl">Nosotros somos MangaLounge</h2>
+      <p class="text-center text-lg my-4">Somo una startup que está centrada en la satisfacción del usuarios através de nuestros productos de software.<br>Nosotros intentamos hacer tu vida más fácil y disfrutable.</p>
+      <img src="/images/yt-video-placeholder.png" alt="Marcador de posición del video acerca del producto">
+      <p class="italic mb-4">"A veces la mejor solución es la última cosa que se te ocurren en la mente"</p>
+      <p class="text-center text-3xl font-bold mb-8">Empresas que trabajan con nosotros</p>
+      <div class="grid justify-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 bg-gray-100 py-6 w-full">
+        <img class="h-14 w-auto" src="/images/vue-logo.png" alt="Vue Framework logo" loading="lazy">
+        <img class="h-14 w-auto" src="/images/upc-logo.png" alt="UPC logo" loading="lazy">
+        <img class="h-14 w-auto" src="/images/ibero-logo.png" alt="Ibero librerías logo" loading="lazy">
+        <img class="h-14 w-auto" src="/images/google-logo.png" alt="Google logo" loading="lazy">
+      </div>
+    </section>
+    <sectio id="pricing" class="flex flex-col justify-center items-center bg-gray-100 py-4 md:py-8 px-4 gap-8">
+      <h2 class="text-center font-bold text-4xl">Entonces, ¿Qué opinas?</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="shadow-2xl rounded-3xl p-4">
+          <h3 class="text-center font-bold text-3xl">ReadOWO</h3>
+          <ul class="list-inside list-disc my-4">
+            <li>Lee capítulos seleccionados de tus obras de arte favoritas.</li>
+            <li>Únte a nuestra comunidad de cientos de lectores y escritores apasionados.</li>
+            <li>Escribe tus propieas historias a tu propio ritmo.</li>
+            <li>Nunca verás un anuncio intrusivo.</li>
+          </ul>
+          <div class="text-center font-bold">
+            <p class="text-3xl">$<span class="text-5xl">0</span></p>
+            <p class="text-2xl">para siempre</p>
+          </div>
+        </div>
+        <div class="shadow-2xl rounded-3xl p-4">
+          <h3 class="text-center font-bold text-3xl">ReadOWO Plus</h3>
+          <ul class="list-inside list-disc my-4">
+            <li>Todas las características de la suscripción gratuita.</li>
+            <li>Obtén acceso a nuestra colección completa de cómics, mangas y novelas ligeras.</li>
+          </ul>
+          <div class="text-center font-bold">
+            <p class="text-xl">por sólo</p>
+            <p class="text-3xl">$<span class="text-5xl">2.99</span></p>
+            <p class="text-2xl">al mes</p>
+          </div>
+        </div>
+      </div>
+      </section>
+      <section class="flex flex-col justify-center items-center rounded-2xl bg-primary text-center gap-4  p-4">
+        <h2 class="text-2xl text-white">Empieza a usar tu creatividad,<br>empieza a utilizar ReadOWO</h2>
+        <a href="https://app.Reader.app/" class="flex justify-center w-fit items-center btn-white text-primary  rounded-full gap-1 md:gap-2">
+          <span class="md:text-xl">Regístrate</span>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 md:w-6 md:h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+          </svg>
+        </a>
+      </section>
   </main>
   <footer>
 
