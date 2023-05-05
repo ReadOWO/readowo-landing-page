@@ -85,45 +85,115 @@
     </button>
   </header>
   <main>
-    <section id="pricing" class="flex flex-col justify-center items-center bg-gray-100 py-4 md:py-8 px-4 gap-8">
-      <h2 class="text-center font-bold text-4xl">So, What do you think?</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div class="shadow-2xl rounded-3xl p-4">
-          <h3 class="text-center font-bold text-3xl">ReadOWO</h3>
-          <ul class="list-inside list-disc my-4">
-            <li>Read selected chapters from your favorite artworks.</li>
-            <li>Join our community of hundred of readers and writers.</li>
-            <li>Write your own stories at your own pace.</li>
-            <li>You will never see an intrusive ad.</li>
-          </ul>
-          <div class="text-center font-bold">
-            <p class="text-3xl">$<span class="text-5xl">0</span></p>
-            <p class="text-2xl">forever</p>
+      <section class="relative min-h-screen bg-hero-img bg-cover bg-bottom">
+          <div class="absolute h-full w-full bg-white opacity-50"></div>
+          <div class="absolute h-full w-full flex flex-col justify-center items-center p-4 gap-8">
+              <h1 class="text-4xl md:text-5xl lg:text-6xl text-center font-bold">Experience the wonder of <span class="text-primary">reading</span> <br>and <span class="text-secondary">writing</span>, one chapter at a time</h1>
+              <p class="text-lg md:text-2xl font-semibold text-center">Read or write comics, mangas or light novels whenever<br>you want.</p>
+              <a href="https://app.Reader.app/" class="flex justify-center items-center btn-primary hover:bg-secondary duration-300 rounded-full gap-1 md:gap-2">
+                  <span class="md:text-xl">Register</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 md:w-6 md:h-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                  </svg>
+              </a>
           </div>
-        </div>
-        <div class="shadow-2xl rounded-3xl p-4">
-          <h3 class="text-center font-bold text-3xl">ReadOWO Plus</h3>
-          <ul class="list-inside list-disc my-4">
-            <li>All the available features from the free subscription.</li>
-            <li>Get access to our complete collection of comics, mangas and novels.</li>
-          </ul>
-          <div class="text-center font-bold">
-            <p class="text-xl">for only</p>
-            <p class="text-3xl">$<span class="text-5xl">2.99</span></p>
-            <p class="text-2xl">per month</p>
+      </section>
+      <section class="p-8 bg-gray-100" id="product">
+          <h2 class="text-center font-bold text-3xl">ReadOWO, a whole new way to read and write</h2>
+          <p class="text-center my-4 text-lg">For our passionate readers</p>
+          <div class="flex flex-col gap-8">
+              <div class="flex flex-wrap justify-center items-center gap-4">
+                  <p>Get access to our collection of<br>+1000 famous and unique titles.</p>
+                  <img class="w-56 md:w-64 h-auto" src="/images/books.png" alt="6 famous books together">
+              </div>
+              <div class="flex flex-wrap md:flex-row-reverse justify-center items-center gap-4">
+                  <p>Full compatibility across devices:<br>Use your phone, tablet or PC.</p>
+                  <img class="w-56 md:w-64 h-auto" src="/images/devices.png" alt="Diffent devices such as laptop, phone and tablet">
+              </div>
+              <div class="flex flex-wrap justify-center items-center gap-4">
+                  <p>Do you like action? We have a<br>learning system based on your<br>tastes to recommend similar <br>creations.</p>
+                  <img class="w-56 md:w-64 h-auto" src="/images/ai.png" alt="Cute robot learning with AI algorithms">
+              </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <section class="flex flex-col justify-center items-center rounded-2xl bg-primary text-center gap-4  p-4">
-      <h2 class="text-2xl text-white">Start using your creativity,<br>start using ReadOWO</h2>
-      <a href="https://app.Reader.app/" class="flex justify-center w-fit items-center btn-white text-primary  rounded-full gap-1 md:gap-2">
-        <span class="md:text-xl">Register</span>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 md:w-6 md:h-6">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-        </svg>
-      </a>
-    </section>
+      </section>
+      <section class="p-8 text-white bg-primary">
+          <p class="text-center my-4 text-lg">For our awesome writers</p>
+          <div class="flex flex-col gap-8">
+              <div class="flex flex-wrap md:flex-row-reverse justify-center items-center gap-4">
+                  <p>Take writing to another level:<br>Add images, change the typography<br>and more.</p>
+                  <img class="w-56 md:w-64 h-auto" src="/images/writing.png" alt="Happy author working on a new title">
+              </div>
+              <div class="flex flex-wrap justify-center items-center gap-4">
+                  <p>Publish your artworks through our<br>platform and let others see your work.</p>
+                  <img class="w-56 md:w-64 h-auto" src="/images/book-upload.png" alt="A book with letters around it">
+              </div>
+              <div class="flex flex-wrap md:flex-row-reverse justify-center items-center gap-4">
+                  <p>Start getting recognition!<br>Everyone can like your books and<br>share them to others.</p>
+                  <img class="w-56 md:w-64 h-auto" src="/images/love.png" alt="A like notification">
+              </div>
+          </div>
+      </section>
+      <section class="flex justify-center items-center bg-gray-100 p-4 md:p-8" id="abou-us">
+          <div class="grid grid-cols-1 items-center md:grid-cols-2 w:w-3/4 lg:w-2/3">
+              <div class="text-center">
+                  <h2 class="font-bold text-3xl mb-4">Not sure about<br>ReadOWO yet?</h2>
+                  <p class="text-lg">Watch our product video to know exactly<br>how ReadOWO works</p>
+              </div>
+              <img src="/images/yt-video-placeholder.png" alt="Video about the product placeholder">
+          </div>
+      </section>
+      <section id="about-us" class="flex flex-col justify-center items-center bg-tertiary py-4 md:py-8">
+          <h2 class="font-bold text-3xl">We are MangaLounge</h2>
+          <p class="text-center text-lg my-4">We are a startup focused on user satisfaction through the use of our software products.<br>We try to make your life easier.</p>
+          <img src="/images/yt-video-placeholder.png" alt="Video about the product placeholder">
+          <p class="italic mb-4">"Sometimes the best solution is the least thing in your mind"</p>
+          <p class="text-center text-3xl font-bold mb-8">Brands working with us</p>
+          <div class="grid justify-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 bg-gray-100 py-6 w-full">
+              <img class="h-14 w-auto" src="/images/vue-logo.png" alt="Vue Framework logo" loading="lazy">
+              <img class="h-14 w-auto" src="/images/upc-logo.png" alt="UPC logo" loading="lazy">
+              <img class="h-14 w-auto" src="/images/ibero-logo.png" alt="Ibero librerías logo" loading="lazy">
+              <img class="h-14 w-auto" src="/images/google-logo.png" alt="Google logo" loading="lazy">
+          </div>
+      </section>
+      <section id="pricing" class="flex flex-col justify-center items-center bg-gray-100 py-4 md:py-8 px-4 gap-8">
+          <h2 class="text-center font-bold text-4xl">So, What do you think?</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div class="shadow-2xl rounded-3xl p-4">
+                  <h3 class="text-center font-bold text-3xl">ReadOWO</h3>
+                  <ul class="list-inside list-disc my-4">
+                      <li>Read selected chapters from your favorite artworks.</li>
+                      <li>Join our community of hundred of readers and writers.</li>
+                      <li>Write your own stories at your own pace.</li>
+                      <li>You will never see an intrusive ad.</li>
+                  </ul>
+                  <div class="text-center font-bold">
+                      <p class="text-3xl">$<span class="text-5xl">0</span></p>
+                      <p class="text-2xl">forever</p>
+                  </div>
+              </div>
+              <div class="shadow-2xl rounded-3xl p-4">
+                  <h3 class="text-center font-bold text-3xl">ReadOWO Plus</h3>
+                  <ul class="list-inside list-disc my-4">
+                      <li>All the available features from the free subscription.</li>
+                      <li>Get access to our complete collection of comics, mangas and novels.</li>
+                  </ul>
+                  <div class="text-center font-bold">
+                      <p class="text-xl">for only</p>
+                      <p class="text-3xl">$<span class="text-5xl">2.99</span></p>
+                      <p class="text-2xl">per month</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section class="flex flex-col justify-center items-center rounded-2xl bg-primary text-center gap-4  p-4">
+          <h2 class="text-2xl text-white">Start using your creativity,<br>start using ReadOWO</h2>
+          <a href="https://app.Reader.app/" class="flex justify-center w-fit items-center btn-white text-primary  rounded-full gap-1 md:gap-2">
+              <span class="md:text-xl">Register</span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 md:w-6 md:h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+              </svg>
+          </a>
+      </section>
   </main>
   <footer class="flex flex-col justify-center items-center text-white bg-gray-800 gap-4 py-4">
     <div class="flex flex-col md:flex-row gap-2">
